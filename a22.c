@@ -4,6 +4,6 @@ int main(){
     printf("input a b:");
     scanf("%f %f",&a,&b);
     c=a+b,d=a-b,e=a*b,f=a/b;
-    printf("sum=%2.7f\n,difference=%2.7f\n,product=%2.7f\n,ratio=%2.7f",c,d,e,f);
+    printf("sum=%.2f\n,difference=%.2f\n,product=%.2f\n,ratio=%.2f",c,d,e,f);
     return 0;
 }
